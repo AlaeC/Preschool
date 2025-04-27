@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/pencil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .learning-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: palevioletred;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+  .top-button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-rect {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fc821f;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-rect:hover {
+    background-color: #4583a0;
+  }
+  
+  
+  .learning-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .activity-item {
+    width: 150px;
+  }
+  
+    
+  .activity-label {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: palevioletred;
+    text-shadow: 1px 1px 2px #000;
+  }
+  .learning-btn {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+  .learning-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
+  .Alphabets { background-image: url('images/ALPHABET.jpg'); }
+  .Chiffres{ background-image: url('images/CHIFFRES.jpg'); }
+  .Animaux{ background-image: url('images/ANIMAL.jpg'); }
+  .Vehicules{ background-image: url('images/VEHICULES.jpg'); }
+  .MoisJoursSaisons{ background-image: url('images/CALENDRIER.jpg'); }
+  .Legumes{ background-image: url('images/LEGUME.jpg'); }
+  .Fruits{ background-image: url('images/FRUIT.jpg'); }
+  .Vetements{ background-image: url('images/VETEMENT.jpg'); }
+  .Couleurs{ background-image: url('images/COULEUR.jpg'); }
+  .Drapeaux{ background-image: url('images/DRAPEAU.jpg'); }
+  .Metier{ background-image: url('images/METIER.jpg')}
+  .Maladies{ background-image: url('images/Maladie.jpg')}
+  .Corps{ background-image: url('images/corp.jpg')}
+  

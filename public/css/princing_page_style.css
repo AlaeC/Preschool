@@ -1,0 +1,21 @@
+body{
+  font-family: 'Comic Neue', cursive;
+   
+    background: linear-gradient(to bottom, #fff0f5, #e0ffff);
+     
+}
+.card:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease;
+  } 
+
+.card {
+   border-radius: 50px !important;
+    overflow: hidden;
+   }
+
+.card .card-header{
+    
+        background-color: #B3E5FC 
+     
+}

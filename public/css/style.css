@@ -1,0 +1,142 @@
+body{
+    background-color: palevioletred;
+      background-image: url('pencil.jpg');
+       
+     
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    
+    padding: 8px 0;
+}
+
+
+.nav-link {
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.home-icone{
+    border: 1px solid  rgb(47, 47, 228);
+    border-radius: 10%;
+    font-size: 15px;
+    background-color:rgb(163, 65, 202);
+    margin-top: 5px;
+    color:aliceblue;
+}
+
+.login-button{
+    border: 2px solid #ffffff; 
+    color:rgb(83, 183, 250);
+    border: 3 solid  rgb(83, 183, 250);
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family:  sans-serif;
+}
+.sing-up-button{
+     color:rgb(247, 237, 237);
+     background-color: rgb(83, 183, 250);
+    
+ }
+
+.logo-image{
+    width: 80px;
+    height: 80px;
+    margin-left: 0; 
+    
+ }
+
+ 
+
+ .container ul{
+    padding-top: 7px;
+ }
+
+ h2.text-style {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+
+}
+
+.div-of-text{
+    margin-bottom: 250px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-5deg); }
+    50% { transform: translateY(-20px) rotate(5deg); }
+}
+.animated-alphabet {
+    animation: float 3s infinite ease-in-out;
+    transform-origin: center bottom;
+}
+.animated-alphabet:hover {
+    filter: drop-shadow(0 0 30px  palevioletred);
+}
+ 
+.div-of-text>h4{
+    padding-top: 40px;
+    margin-top: 18px;
+    font-size: 33px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:   rgb(221, 121, 247);
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+     color: rgb(5, 212, 248);
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+       
+}
+.category-block {
+    background: linear-gradient(135deg, #FF9A8B 0%, #FF6B95 100%);
+    font-size: 25px;
+    
+    height: 80px;
+    border-radius: 16px;
+    padding: 35px;
+    padding-top: 2px;
+   
+}   
+
+.first-block{
+    height: 80px;
+    width: 70px;
+    padding-top: 8px;
+    padding: 16px;
+    padding-left: 60px;
+    background:rgb(224, 216, 206);
+}
+ 
+
+
+.progress-tracker{
+    
+     margin-left:120px;
+     margin-right: 10px;
+   
+      
+ }
+ 
+
+ .milestone-text{
+     font-size: 35px;
+    margin-left: 70px;
+    color: lightcoral;
+    padding: 7px;
+    height: 40px;
+ }
+
+
+
+
+    
+  
