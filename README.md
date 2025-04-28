@@ -81,6 +81,10 @@ php artisan --seed
 
 ---
 
+## Tables
+
+![image alt](https://github.com/AlaeC/Preschool/blob/e54f4105acc0a88f48a31b04d8aad93d80e616d9/table.png)
+
 ## 📋 Important Commands
 
 | Action                    | Command                                              |
