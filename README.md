@@ -52,7 +52,7 @@ Seeding means **automatically filling** the database with **sample or default da
 To insert default data into tables, run:
 
 ```bash
-php artisan db:seed
+php artisan --seed
 ```
 
 ---
@@ -72,16 +72,12 @@ php artisan migrate
 This will insert default data into the tables.
 
 ```bash
-php artisan db:seed
+php artisan --seed
 ```
 
 ### (Optional) Run Migrate and Seed Together
 
-If you want to run both at once:
 
-```bash
-php artisan migrate --seed
-```
 
 ---
 
@@ -115,8 +111,9 @@ Schema::create('categories', function (Blueprint $table) {
 
 ```php
 DB::table('categories')->insert([
-    'categorie_name' => 'Alphabet',
-    'icon' => 'uploads/alphabet.png',
+    'name' => 'admin',
+    'email' => 'admin@example.com',
+    'password' => password
 ]);
 ```
 
@@ -125,12 +122,20 @@ DB::table('categories')->insert([
 ## 🛡️ Important Notes
 
 -   Make sure your `.env` file is correctly configured for your database.
--   Run `php artisan migrate` and `php artisan db:seed` after cloning the project.
+-   Run `php artisan migrate` and `php artisan --seed` after cloning the project.
+-   If you use this command `php artisan --seed` you can access this login page by email: admin@example.com and password: password.
 -   **Admin User:** If you need an admin login, create a user manually or add a user seeder.
 -   You may need to create a folder named `uploads/` inside `public/` to store icons and files.
 -   **Admin Panel Access:** For more secure access to the admin page, use the route `/admin/login`.
 
 ---
+
+## Data for testing
+    video :
+    https://drive.google.com/drive/folders/1viGz-MQfGcj2gvW1BeFrhvLzZjYgv6Ke?usp=sharing
+    audio :
+    https://drive.google.com/drive/folders/1h_5xkePV-OkXL7Ja1oOR-rH00IPoi-Dg?usp=sharing
+        
 
 ## 🏁 Final Words
 
